@@ -224,16 +224,37 @@
         }
 
         .image-label{
+            width:100%;
             background:rgba(0,0,0,1);
             z-index:999;
             color:#fff;
             height:71px;
-            line-height:35px;
-            padding:20px;
             text-align:right;
             text-transform: uppercase;
             font-weight:bold;
             letter-spacing: 0.2em;
+        }
+
+        .image-label *{
+            color:#fff;
+        }
+
+        svg{
+            color:#fff;
+            fill: #fff;
+            width:100%;
+            font-size:45px;
+            height:100%;
+            text-align:center;
+        }
+
+        .image-label text{
+            width:100%;
+            text-align:center;
+        }
+
+        .image-label img{
+            object-fit:contain;
         }
 
         .image{
@@ -502,14 +523,32 @@
     
         <div style="height:100%; ">
             <div class="gallery-line">
-                <div class="menu-title-container"><img class='menu-image' src="i/v2-165.jpg" alt="Cold Brew" title="Cold Brew"><div class="image-label">Cold Brew</div></div>
-                <div class="menu-title-container"><img class='menu-image' src="i/v2-169.jpg" alt="Wildflower Honey Latte" title="Wildflower Honey Latte"><div class="image-label">Wildflower Honey Latte</div></div>
-                <div class="menu-title-container"><img class='menu-image' src="i/v2-171.jpg" alt="Caffe Latte" title="Caffe Latte"><div class="image-label">Caffe Latte</div></div>
+                <div class="menu-title-container"><img class='menu-image' src="i/v2-165.jpg" alt="Cold Brew" title="Cold Brew"><div class="image-label">
+                    <!--<svg viewBox="0 0 200 71"><text x="0" y="45">Cold Brew</text></svg>-->
+                    <img src="i/coldbrew.jpg" alt="Cold Brew">
+                </div></div>
+                <div class="menu-title-container"><img class='menu-image' src="i/v2-169.jpg" alt="Wildflower Honey Latte" title="Wildflower Honey Latte"><div class="image-label">
+                    <!--<svg viewBox="0 0 200 71"><text x="0" y="45">Wildflower Honey Latte</text></svg>-->
+                    <img src="i/wildflower.jpg" alt="Wildflower Honey Latte">
+                </div></div>
+                <div class="menu-title-container"><img class='menu-image' src="i/v2-171.jpg" alt="Caffe Latte" title="Caffe Latte"><div class="image-label">
+                    <!--<svg viewBox="0 0 200 71"><text x="0" y="45">Caffe Latte</text></svg>-->
+                    <img src="i/caffeelatte.jpg" alt="Caffe Latte">
+                </div></div>
             </div>
             <div class="gallery-line">
-                <div class="menu-title-container"><img class='menu-image' src="i/v2-163.jpg" alt="Chai Latte" title="Chai Latte"><div class="image-label">Chai Latte</div></div>
-                <div class="menu-title-container"><img class='menu-image' src="i/v2-155.jpg" alt="Japanese Matcha Latte" title="Japanese Matcha Latte"><div class="image-label">Japanese Matcha Latte</div></div>
-                <div class="menu-title-container"><img class='menu-image' src="i/v2-104.jpg" alt="Horchata Latte" title="Horchata Latte"><div class="image-label">Horchata Latte</div></div>
+                <div class="menu-title-container"><img class='menu-image' src="i/v2-163.jpg" alt="Chai Latte" title="Chai Latte"><div class="image-label">
+                    <!--<svg viewBox="0 0 200 71"><text x="0" y="45">Chai Latte</text></svg>-->
+                    <img src="i/chailatte.jpg" alt="Chai Latte">
+                </div></div>
+                <div class="menu-title-container"><img class='menu-image' src="i/v2-155.jpg" alt="Japanese Matcha Latte" title="Japanese Matcha Latte"><div class="image-label">
+                    <!--<svg viewBox="0 0 200 71"><text x="0" y="45">Japanese Matcha Latte</text></svg>-->
+                    <img src="i/matchalatte.jpg" alt="Japanese Matcha Latte">
+                </div></div>
+                <div class="menu-title-container"><img class='menu-image' src="i/v2-104.jpg" alt="Horchata Latte" title="Horchata Latte"><div class="image-label">
+                    <!--<svg viewBox="0 0 200 71"><text x="0" y="45">Horchata Latte</text></svg>-->
+                    <img src="i/horchatalatte.jpg" alt="Horchata Latte">
+                </div></div>
             </div>
         </div>
     </div>
